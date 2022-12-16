@@ -1,0 +1,3 @@
+[
+    {"id": 1, "projectName": "Logistic", "img": "../src/assets/projects/screencapture-logistic-ef3af-web-app-2022-12-10-23_57_47.png", "link": "https://logistic-ef3af.web.app/", "technology": "ReactJS, ExpressJS, NodeJS, Stripe, Firebase, MongoDB, React-Query, React-Hook-Form"}
+]
