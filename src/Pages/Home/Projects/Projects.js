@@ -41,7 +41,7 @@ const Projects = () => {
     }
 
     return (
-    <div id='projects'>
+    <div id='Projects'>
     <Container css={{display: "flex", justifyContent: "center", alignItems: "center"}}>
         <hr style={{width: "30%"}}/>
                 <Spacer x={1} />
@@ -87,7 +87,7 @@ const Projects = () => {
                                         isBlurred
                                         css={{
                                             position: "absolute",
-                                            bgBlur: "#ffffff66",
+                                            bgBlur: "#9750dd",
                                             borderTop: "$borderWeights$light solid rgba(255, 255, 255, 0.2)",
                                             bottom: 0,
                                             zIndex: 1,
@@ -95,7 +95,7 @@ const Projects = () => {
                                     >
                                         <Row>
                                             <Col>
-                                                <Text h3 color="#000" size={12} transform="uppercase">
+                                                <Text h2 color="#000" size={16} transform="uppercase">
                                                     {project.projectName}
                                                 </Text>
                                             </Col>

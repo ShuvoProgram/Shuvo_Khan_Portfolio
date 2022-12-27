@@ -5,6 +5,7 @@ import './Tabs.css';
 import { FiUser } from "react-icons/fi";
 import { FaUserGraduate } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
+import boy from "../../../assets/IMG_20220605_151318-removebg-preview.png";
 
 const TabMenu = [
     { icon: <FiUser /> ,label: "Personal"},
@@ -15,7 +16,7 @@ const TabMenu = [
 const About = () => {
     const [selectedTab, setSelectedTab] = useState([]);
     return (
-        <div id='about'>
+        <div id='About'>
             <Container css={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <hr style={{ width: "30%" }} />
                 <Spacer x={1} />
@@ -34,7 +35,7 @@ const About = () => {
             </Container>
             <Grid.Container gap={1} justify='center'>
                 <Grid xs={12} md={4}>
-
+                    <img src={boy} alt="" />
                 </Grid>
                 <Grid xs={12} md={8} className="about">
                     <Tabs className="Tabs">
@@ -54,7 +55,12 @@ const About = () => {
                                     exit={{ y: -10, opacity: 0 }}
                                     transition={{ duration: 0.2 }}
                                 >
-                                    
+                                    <Text>
+                                        Myself Safar khan shuvo. I'm from Savar in Dhaka city. I am enthusiastic and passionate
+                                        web development sector.
+                                        <Text>I have done many successful mainframe projects during my learning
+                                            process.</Text>
+                                    </Text>
                                 </motion.div>
                             </AnimatePresence>
                             

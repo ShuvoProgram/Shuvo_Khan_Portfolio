@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import GoToTop from '../Pages/Shared/GoToTop/GoToTop';
+import Footer from '../Pages/Shared/Footer/Footer';
 import Navber from '../Pages/Shared/Navbar/Navbar';
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
         <div>
             <Navber/>
             <Outlet/>
-            <GoToTop />
+            <Footer/>
         </div>
     );
 };

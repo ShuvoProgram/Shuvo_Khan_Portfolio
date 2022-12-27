@@ -40,7 +40,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact'>
+        <div id='Contact'>
             <Container css={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                 <hr style={{ width: "30%" }} />
                 <Spacer x={1} />
